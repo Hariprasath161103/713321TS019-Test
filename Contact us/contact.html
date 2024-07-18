@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <link rel="stylesheet" href="contact.css">
+    <nav class="navbar">
+        <h1 style="color: black; font-size:x-large;"><span style="color: green;">TAMILNADU </span>GOVERNMENT</h1>
+
+        <a href="#" class="toggle-button" onclick="drop()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+    </nav>
+    <div class="drop-down-menu" id="drop-down-menu">
+        <div class="drop-down-item"><a href="/Home/home.html">Home</a></div>
+        <div class="drop-down-item"><a href="/About tamilnadu/about.html">About Tamilnadu</a></div>
+        <div class="drop-down-item"><a href="/Annon/Announcement.html">Announcements</a></div>
+        <div class="drop-down-item"><a href="/Contact us/contact.html">Contact Us</a></div>
+        <div class="drop-down-item"><a href="/Login/login.html">Log Out</a></div>
+    </div>
+
+    <div class="container d-flex flex-column text-center border-bottom border-5 border-dark mb-5">
+        <h1 style="color: green;">Contact Us</h1>
+        <h5>Government of Tamil Nadu</h5>
+        <h5>Namakkal Kavignar Maaligai,</h5>
+        <h5>Fort St. George,Chennai 600 009</h5>
+        <h5>Phone No :2566 5566</h5>
+        <h5>E-Mail:Refer concerned Department's page</h5>
+    </div>
+    <div class="container d-flex flex-column text-left border-bottom border-5 border-dark my-5 py-2"
+        style="color: green;">
+        <h1 class="text-center text-dark">Raise Your complaints</h1>
+        <form action=" " class="container w-50" onsubmit="return false">
+            <div>
+                <label for="name" class="h6 text-left pt-2">Name</label>
+                <input type="text" id="name" class="form-control" placeholder="Name">
+            </div>
+            <div><label for="mail" class="h6 text-left pt-2">Mail</label><input type="mail" id="mail"
+                    class="form-control" placeholder="Mail">
+            </div>
+            <div><label for="phone" class="h6 text-left pt-2">Mobile Number</label><input type="number" id="phone"
+                    class="form-control" placeholder="Phone"></div>
+            <div><label for="text" class="h6 text-left pt-2">Enter your Queries</label><textarea name="" id="text"
+                    class="form-control" placeholder="Your Queries"></textarea></div>
+            <button class="btn btn-primary my-5" onclick="disp()" type="reset">Submit</button>
+            <h3 class="text-center" style="color: green; display: none;" id="thank">Thank you for your Queries</h3>
+        </form>
+    </div>
+
+    <section class="som">
+
+        <div class="so-title">
+            <h2>we are @ socialmedia</h2>
+        </div>
+        <div class="so-links">
+            <h6><a href="">Instagram</a></h6>
+            <h6><a href="">Whatsapp</a></h6>
+            <h6><a href="">YouTube</a></h6>
+            <h6><a href="">X</a></h6>
+        </div>
+    </section>
+
+    <footer>
+        Copyright@2024 Tamilnadu Government
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="contact.js"></script>
+</body>
+
+</html>

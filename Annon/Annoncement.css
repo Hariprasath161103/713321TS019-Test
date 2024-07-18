@@ -1,0 +1,113 @@
+        .announcement{
+            padding: 15px;
+            margin-bottom: 20px;
+            background-color: #ffffff;
+            border: 1px solid green;
+            border-radius: 5px;
+        }
+.announcement:hover{
+ background-color: antiquewhite;
+ font-variant: small-caps;
+ color: green;
+}
+        .announcement-title {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .announcement-date {
+            display: none;
+            font-size: 0.9em;
+            color: #6c757d;
+        }
+          *{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    background-color: lightblue;
+}
+.toggle-button {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: green;
+    border-radius: 10px;
+}
+.drop-down-menu{
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease, max-height 0.5s ease;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.drop-down-item{
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid black;
+    background-color: whitesmoke;
+    padding: 10px 0 10px 20px;
+    
+}
+.drop-down-item a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;  
+}
+  
+.som{
+    text-align: center;
+    background-color: lightblue;
+    padding: 20px;
+    
+}
+.so-title{
+    margin-bottom: 20px;
+}
+.so-links{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.so-links a{
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 10px;
+    color: green;
+    border: 2px solid green;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.so-links a:hover{
+    background-color: white;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
